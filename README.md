@@ -1,13 +1,24 @@
 # Network Automation with Ansible in Virtual Environments and Presentation
 
 ## Objective
-This assignment is designed to immerse students in network automation using Ansible within virtual network environments. It includes creating Ansible playbooks for network configurations, implementing VLANs, configuring a routing protocol, employing Jinja2 templates, developing an Ansible role, automating deployment with GitHub Actions, and concludes with presenting the lab deployment.
+This group assignment (1-3 students per group) aims to provide hands-on experience in automating network configurations using Ansible within virtual network environments. Groups will create Ansible playbooks for configuring network devices, implement VLANs, configure a routing protocol, use Jinja2 templates, develop an Ansible role, and automate deployment with GitHub Actions. The project concludes with a group presentation of the deployed lab.
+
+## Group Work and Collaboration
+- Each group should have 1-3 members. (Can be done alone too)
+- Tasks should be distributed evenly, and members are expected to contribute equally.
+- Collaboration will be facilitated through GitHub, leveraging issues, pull requests, and code reviews for quality assurance.
 
 ## Requirements
 - Setup a virtual network environment using GNS3, Containerlab, or VMs to simulate 3-4 network devices (switches/routers).
 - Ansible installed on a control machine.
 - Basic understanding of YAML, Jinja2 templates, GitHub Actions, and the chosen network simulation tool.
 - A GitHub account.
+  
+## GitHub Collaboration
+- **Repository Setup**: One member should set up a GitHub repository and add other members as collaborators.
+- **Branch Strategy**: Use feature branches for development, ensuring that the main branch remains stable.
+- **Pull Requests and Reviews**: Members should use pull requests (PRs) for merging changes. At least one other group member must review and approve the PR before merging.
+- **Contribution Tracking**: Ensure that each group member's contributions are visible through commits and PRs.
 
 ## Environment Setup
 Choose one of the following tools for simulating network devices:
@@ -53,3 +64,4 @@ Choose one of the following tools for simulating network devices:
 ## Submission Guidelines
 - Submit your GitHub repository link containing the project files before the presentation date.
 - Present and demonstrate your lab deployment in class, discussing your project insights.
+- Ensure that the repository reflects contributions from all group members.
