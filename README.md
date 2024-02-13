@@ -1,7 +1,7 @@
 # Network Automation with Ansible in Virtual Environments and Presentation
 
 ## Objective
-This group assignment (1-3 students per group) aims to provide hands-on experience in automating network configurations using Ansible within virtual network environments. Groups will create Ansible playbooks for configuring network devices, implement VLANs, configure a routing protocol, use Jinja2 templates, develop an Ansible role, and automate deployment with GitHub Actions. The project concludes with a group presentation of the deployed lab.
+This group assignment (1-3 students per group) aims to provide hands-on experience in automating network configurations using Ansible within virtual network environments. Groups will create Ansible playbooks for configuring network devices, implement VLANs, configure a routing protocol, use Jinja2 templates, develop an Ansible role, automate deployment with GitHub Actions, and secure sensitive data using Ansible Vault. The project concludes with a group presentation of the deployed lab.
 
 ## Group Work and Collaboration
 - Each group should have 1-3 members. (Can be done alone too)
@@ -47,21 +47,25 @@ Choose one of the following tools for simulating network devices:
 ## Part 4: Developing an Ansible Role
 1. Refactor your playbooks into an Ansible role named `network_config` with tasks, handlers, templates, defaults, and vars.
 
-## Part 5: Automating Deployment with GitHub Actions
-1. Store your Ansible configurations in a GitHub repository.
+## Part 5: Securing Sensitive Data with Ansible Vault
+1. Use Ansible Vault to encrypt sensitive information, such as passwords or secret keys, required by your playbooks.
+2. Update your playbooks to reference encrypted data, ensuring secure handling of credentials and other sensitive information.
+
+## Part 6: Automating Deployment with GitHub Actions
+1. Store your Ansible configurations and encrypted Ansible Vault files in a GitHub repository.
 2. Setup a `.github/workflows/ansible-deploy.yml` workflow for automated deployment upon updates to the main branch.
 
-## Part 6: Presentation and Demonstration
-- **Prepare a Presentation**: Outline your project including the choice of virtual environment, network configurations, Ansible playbooks and role, and GitHub Actions automation.
-- **Live Demonstration**: Demonstrate the automated deployment in your virtual environment.
-- **Discussion**: Discuss design choices, challenges, and insights into real-world network management automation with Ansible.
+## Part 7: Presentation and Demonstration
+- **Prepare a Presentation**: Outline your project, including the choice of virtual environment, network configurations, Ansible playbooks and role, GitHub Actions automation, and the integration of Ansible Vault for security.
+- **Live Demonstration**: Demonstrate the automated deployment in your virtual environment, emphasizing how Ansible Vault secures sensitive data.
+- **Discussion**: Discuss design choices, challenges, and insights into real-world network management automation with Ansible, focusing on security practices.
 
 ## Deliverables
-- Ansible inventory files, playbooks, Jinja2 templates, and roles.
+- Ansible inventory files, playbooks, Jinja2 templates, roles, and encrypted Ansible Vault files.
 - GitHub repository URL containing your project.
 - Presentation and demonstration of your lab deployment.
 
 ## Submission Guidelines
 - Submit your GitHub repository link containing the project files before the presentation date.
-- Present and demonstrate your lab deployment in class, discussing your project insights.
+- Present and demonstrate your lab deployment in class, discussing your project insights and the role of Ansible Vault in securing network automation.
 - Ensure that the repository reflects contributions from all group members.
